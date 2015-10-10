@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B338A2FD1BC97D6200E35F5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B338A2FC1BC97D6200E35F5F /* AppDelegate.swift */; };
+		B338A2FF1BC97D6200E35F5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B338A2FE1BC97D6200E35F5F /* ViewController.swift */; };
+		B338A3021BC97D6200E35F5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B338A3001BC97D6200E35F5F /* Main.storyboard */; };
+		B338A3041BC97D6200E35F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B338A3031BC97D6200E35F5F /* Assets.xcassets */; };
+		B338A3071BC97D6200E35F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B338A3051BC97D6200E35F5F /* LaunchScreen.storyboard */; };
+		B338A3121BC97D6300E35F5F /* OTCCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B338A3111BC97D6300E35F5F /* OTCCalculatorTests.swift */; };
+		B338A31D1BC97D6300E35F5F /* OTCCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B338A31C1BC97D6300E35F5F /* OTCCalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B338A30E1BC97D6300E35F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B338A2F11BC97D6200E35F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B338A2F81BC97D6200E35F5F;
+			remoteInfo = OTCCalculator;
+		};
+		B338A3191BC97D6300E35F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B338A2F11BC97D6200E35F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B338A2F81BC97D6200E35F5F;
+			remoteInfo = OTCCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B338A2F91BC97D6200E35F5F /* OTCCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTCCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B338A2FC1BC97D6200E35F5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B338A2FE1BC97D6200E35F5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B338A3011BC97D6200E35F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B338A3031BC97D6200E35F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B338A3061BC97D6200E35F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B338A3081BC97D6200E35F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B338A30D1BC97D6300E35F5F /* OTCCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTCCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B338A3111BC97D6300E35F5F /* OTCCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTCCalculatorTests.swift; sourceTree = "<group>"; };
+		B338A3131BC97D6300E35F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B338A3181BC97D6300E35F5F /* OTCCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTCCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B338A31C1BC97D6300E35F5F /* OTCCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTCCalculatorUITests.swift; sourceTree = "<group>"; };
+		B338A31E1BC97D6300E35F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B338A2F61BC97D6200E35F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B338A30A1BC97D6300E35F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B338A3151BC97D6300E35F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B338A2F01BC97D6200E35F5F = {
+			isa = PBXGroup;
+			children = (
+				B338A2FB1BC97D6200E35F5F /* OTCCalculator */,
+				B338A3101BC97D6300E35F5F /* OTCCalculatorTests */,
+				B338A31B1BC97D6300E35F5F /* OTCCalculatorUITests */,
+				B338A2FA1BC97D6200E35F5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B338A2FA1BC97D6200E35F5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B338A2F91BC97D6200E35F5F /* OTCCalculator.app */,
+				B338A30D1BC97D6300E35F5F /* OTCCalculatorTests.xctest */,
+				B338A3181BC97D6300E35F5F /* OTCCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B338A2FB1BC97D6200E35F5F /* OTCCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				B338A2FC1BC97D6200E35F5F /* AppDelegate.swift */,
+				B338A2FE1BC97D6200E35F5F /* ViewController.swift */,
+				B338A3001BC97D6200E35F5F /* Main.storyboard */,
+				B338A3031BC97D6200E35F5F /* Assets.xcassets */,
+				B338A3051BC97D6200E35F5F /* LaunchScreen.storyboard */,
+				B338A3081BC97D6200E35F5F /* Info.plist */,
+			);
+			path = OTCCalculator;
+			sourceTree = "<group>";
+		};
+		B338A3101BC97D6300E35F5F /* OTCCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B338A3111BC97D6300E35F5F /* OTCCalculatorTests.swift */,
+				B338A3131BC97D6300E35F5F /* Info.plist */,
+			);
+			path = OTCCalculatorTests;
+			sourceTree = "<group>";
+		};
+		B338A31B1BC97D6300E35F5F /* OTCCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B338A31C1BC97D6300E35F5F /* OTCCalculatorUITests.swift */,
+				B338A31E1BC97D6300E35F5F /* Info.plist */,
+			);
+			path = OTCCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B338A2F81BC97D6200E35F5F /* OTCCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B338A3211BC97D6300E35F5F /* Build configuration list for PBXNativeTarget "OTCCalculator" */;
+			buildPhases = (
+				B338A2F51BC97D6200E35F5F /* Sources */,
+				B338A2F61BC97D6200E35F5F /* Frameworks */,
+				B338A2F71BC97D6200E35F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTCCalculator;
+			productName = OTCCalculator;
+			productReference = B338A2F91BC97D6200E35F5F /* OTCCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B338A30C1BC97D6300E35F5F /* OTCCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B338A3241BC97D6300E35F5F /* Build configuration list for PBXNativeTarget "OTCCalculatorTests" */;
+			buildPhases = (
+				B338A3091BC97D6300E35F5F /* Sources */,
+				B338A30A1BC97D6300E35F5F /* Frameworks */,
+				B338A30B1BC97D6300E35F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B338A30F1BC97D6300E35F5F /* PBXTargetDependency */,
+			);
+			name = OTCCalculatorTests;
+			productName = OTCCalculatorTests;
+			productReference = B338A30D1BC97D6300E35F5F /* OTCCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B338A3171BC97D6300E35F5F /* OTCCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B338A3271BC97D6300E35F5F /* Build configuration list for PBXNativeTarget "OTCCalculatorUITests" */;
+			buildPhases = (
+				B338A3141BC97D6300E35F5F /* Sources */,
+				B338A3151BC97D6300E35F5F /* Frameworks */,
+				B338A3161BC97D6300E35F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B338A31A1BC97D6300E35F5F /* PBXTargetDependency */,
+			);
+			name = OTCCalculatorUITests;
+			productName = OTCCalculatorUITests;
+			productReference = B338A3181BC97D6300E35F5F /* OTCCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B338A2F11BC97D6200E35F5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = MobileStar2015;
+				TargetAttributes = {
+					B338A2F81BC97D6200E35F5F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B338A30C1BC97D6300E35F5F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B338A2F81BC97D6200E35F5F;
+					};
+					B338A3171BC97D6300E35F5F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B338A2F81BC97D6200E35F5F;
+					};
+				};
+			};
+			buildConfigurationList = B338A2F41BC97D6200E35F5F /* Build configuration list for PBXProject "OTCCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B338A2F01BC97D6200E35F5F;
+			productRefGroup = B338A2FA1BC97D6200E35F5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B338A2F81BC97D6200E35F5F /* OTCCalculator */,
+				B338A30C1BC97D6300E35F5F /* OTCCalculatorTests */,
+				B338A3171BC97D6300E35F5F /* OTCCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B338A2F71BC97D6200E35F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B338A3071BC97D6200E35F5F /* LaunchScreen.storyboard in Resources */,
+				B338A3041BC97D6200E35F5F /* Assets.xcassets in Resources */,
+				B338A3021BC97D6200E35F5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B338A30B1BC97D6300E35F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B338A3161BC97D6300E35F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B338A2F51BC97D6200E35F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B338A2FF1BC97D6200E35F5F /* ViewController.swift in Sources */,
+				B338A2FD1BC97D6200E35F5F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B338A3091BC97D6300E35F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B338A3121BC97D6300E35F5F /* OTCCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B338A3141BC97D6300E35F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B338A31D1BC97D6300E35F5F /* OTCCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B338A30F1BC97D6300E35F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B338A2F81BC97D6200E35F5F /* OTCCalculator */;
+			targetProxy = B338A30E1BC97D6300E35F5F /* PBXContainerItemProxy */;
+		};
+		B338A31A1BC97D6300E35F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B338A2F81BC97D6200E35F5F /* OTCCalculator */;
+			targetProxy = B338A3191BC97D6300E35F5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B338A3001BC97D6200E35F5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B338A3011BC97D6200E35F5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B338A3051BC97D6200E35F5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B338A3061BC97D6200E35F5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B338A31F1BC97D6300E35F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B338A3201BC97D6300E35F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B338A3221BC97D6300E35F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OTCCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ptc.OTCCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B338A3231BC97D6300E35F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OTCCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ptc.OTCCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B338A3251BC97D6300E35F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OTCCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ptc.OTCCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTCCalculator.app/OTCCalculator";
+			};
+			name = Debug;
+		};
+		B338A3261BC97D6300E35F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OTCCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ptc.OTCCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTCCalculator.app/OTCCalculator";
+			};
+			name = Release;
+		};
+		B338A3281BC97D6300E35F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OTCCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ptc.OTCCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OTCCalculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B338A3291BC97D6300E35F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OTCCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ptc.OTCCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OTCCalculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B338A2F41BC97D6200E35F5F /* Build configuration list for PBXProject "OTCCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B338A31F1BC97D6300E35F5F /* Debug */,
+				B338A3201BC97D6300E35F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B338A3211BC97D6300E35F5F /* Build configuration list for PBXNativeTarget "OTCCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B338A3221BC97D6300E35F5F /* Debug */,
+				B338A3231BC97D6300E35F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B338A3241BC97D6300E35F5F /* Build configuration list for PBXNativeTarget "OTCCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B338A3251BC97D6300E35F5F /* Debug */,
+				B338A3261BC97D6300E35F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B338A3271BC97D6300E35F5F /* Build configuration list for PBXNativeTarget "OTCCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B338A3281BC97D6300E35F5F /* Debug */,
+				B338A3291BC97D6300E35F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B338A2F11BC97D6200E35F5F /* Project object */;
+}
